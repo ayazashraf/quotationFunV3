@@ -1,0 +1,61 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+//Google Material Icons
+
+//@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+/*
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+// custom
+@import 'custom';
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .card-columns {
+      -moz-column-count: 1;
+      column-count: 1;
+  }
+  
+  }
+  
+    /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+  
+    .card-columns {
+      -moz-column-count: 2;
+      column-count: 2;
+    }
+  }
+ 
+   
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1200px) and (max-width: 1470px) {
+  
+    .card-columns {
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1471px) {
+  
+    .card-columns {
+      -moz-column-count: 4;
+      column-count: 4;
+  }
+  }
