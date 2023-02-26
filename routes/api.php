@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -33,8 +30,9 @@ Route::get('addkeyword', 'API\TopicController@keywords');
 Route::get('getTopicindices', 'API\KeywordIndexController@indices');
 Route::get('getindices', 'API\KeywordController@allindices');
 
-
+/*
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+*/

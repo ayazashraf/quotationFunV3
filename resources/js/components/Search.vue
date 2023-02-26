@@ -65,7 +65,7 @@
   width:100%;
   max-height:200px;
   min-height:200px;
-  background-image:url('/images/banners/7.webp');
+  background-image:url('/public/images/banners/7.webp');
   object-fit: cover;
   background-repeat: round;
   z-index: 999;

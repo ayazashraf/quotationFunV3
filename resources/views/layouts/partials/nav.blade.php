@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm nav-header py-0 my-0">
     <a rel="nofollow" href="/" aria-label="QuotationFun.com">    
-      <img src="../public/images/logo.webp" class="img-responsive logo_sm" alt="Logo Small">	
+      <img src="/public/images/logo.webp" class="img-responsive logo_sm" alt="Logo Small">	
     </a>
        <!-- Toggler/collapsibe Button -->    
    <ul class="navbar-collapse pl-0 my-0 d-none d-md-block" id="collapsibleNavbar" style="list-style:none;">  

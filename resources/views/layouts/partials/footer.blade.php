@@ -5,23 +5,23 @@
     <div class="row">
       <div class="col-sm-3 col-md-3 col-xs-12">
         <div style="mt-2">          
-          <a rel="nofollow" class="navbar-brand" href="/" aria-label="QuotationFun.com"><img src="../public/images/logo.webp" class="img-responsive logo_sm" alt="Logo Small"></a>
+          <a rel="nofollow" class="navbar-brand" href="/" aria-label="QuotationFun.com"><img src="/public/images/logo.webp" class="img-responsive logo_sm" alt="Logo Small"></a>
         </div>        
         <div>
           <ul class="footer-nav list-inline">
                 <li class="list-inline-item">
                     <a href="http://www.facebook.com/quotationfun/">
-                      <img src="../public/images/facebook.webp" alt="QuotationFun Facebook">
+                      <img src="/public/images/facebook.webp" alt="QuotationFun Facebook">
                     </a>
                 </li>
                 <li  class="list-inline-item">
                     <a href="http://www.pinterest.com/quotationfun/">
-                    <img src="../public/images/pinterest.webp" alt="QuotationFun Pinterest">
+                    <img src="/public/images/pinterest.webp" alt="QuotationFun Pinterest">
                     </a>
                 </li>
                 <li  class="list-inline-item">
                     <a href="http://www.twitter.com/quotationfun/">
-                    <img src="../public/images/twitter.webp" alt="QuotationFun Twitter">
+                    <img src="/public/images/twitter.webp" alt="QuotationFun Twitter">
                     </a>
                 </li>            
             </ul>

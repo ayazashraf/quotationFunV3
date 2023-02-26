@@ -1,4 +1,5 @@
 *.svn
 /node_modules
 /vendor
-.evn
+.envOwnFeb242023
+.env
