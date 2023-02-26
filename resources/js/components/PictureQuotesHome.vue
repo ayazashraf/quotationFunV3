@@ -80,13 +80,14 @@ div.desc {
    
 <div>
     <div class="responsive" v-for="quote in quotes" :key="quote.id">
-    <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-        <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-        </a>
-        <div class="desc">{{quote.Quote}}</div>
-        <div class="desc">{{quote.fullnameDisplay}}</div>
-    </div>
+      <div class="gallery">
+        <div class="container">
+          <a target="_blank" v-bind:href="'https://qf.foreigntree.com/public/images/backgrounds/'+quote.background">
+            <img v-bind:src="'https://qf.foreigntree.com/public/images/backgrounds/'+quote.background" alt="Forest" width="100%" max-height="400" class="img-responsive">
+          </a>
+          <div class="">{{quote.Quote}}</div>
+        </div>
+      </div>    
     </div>
 </div>
     
