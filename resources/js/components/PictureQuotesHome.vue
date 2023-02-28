@@ -57,6 +57,28 @@ div.desc {
   width: 24.99999%;
 }
 
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -85,7 +107,7 @@ div.desc {
           <a target="_blank" v-bind:href="'https://qf.foreigntree.com/public/images/backgrounds/'+quote.background">
             <img v-bind:src="'https://qf.foreigntree.com/public/images/backgrounds/'+quote.background" alt="Forest" width="100%" max-height="400" class="img-responsive">
           </a>
-          <div class="">{{quote.Quote}}</div>
+          <div class="centered">{{quote.Quote}} ~ {{ quote.NameDisplayLast }} {{ quote.NameDisplayFirst }}</div>
         </div>
       </div>    
     </div>
